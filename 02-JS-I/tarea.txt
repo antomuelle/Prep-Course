@@ -1,0 +1,31 @@
+Variables:
+-------------------------------
+es una forma de almacenar algun valor para usarlo mas tarde, al hacer esto
+estamos reservando espacio en la memoria del dispositivo.
+
+Strings:
+-------------------------------
+los Strings son un tipo de dato compuestos por bloques de texto que se definen estre comillas dobles o simples.
+
+Funciones (argumentos, return):
+-------------------------------
+Las funciones son un tipo de operacion que realiza alguna accion dentro del programa
+van precedidas (casi siempre) de la palabra clave 'function' y luego su nombre.
+Las funciones pueden o no tener argumentos, estos argumentos son datos que se pasan en el
+momento de llamar a una funcion, lo que puede hacer que una misma funcion se comporte diferente
+segun los argumentos que se hayan ofrecido a dicha funcion.
+Ademas las funciones pueden devolver un valor, esto se hace con la palabra clave 'return';
+una ves establecida la palabra 'return' el interprete ignorara todo el codigo posterior y
+terminara la llamada a dicha funcion.
+
+Declaraciones if:
+-------------------------------
+la declaracion if sirve para controlar el flujo de codigo dentro del programa
+si la condicion se cumple, el bloque de codigo dentro de la seccion if se ejecutara
+en caso contrario se ejecutara el bloque 'else' (si es que hubiera uno); ademas se pueden
+anidar tantos bloques if como se deseen o hacer un flujo con otros bloques 'if else'
+
+Valores booleanos (true, false):
+-------------------------------
+los booleanos son valores de verdad, siempre evaluan a verdadero o falso (true o false)
+es una de las bases de la computacion proveniente del codigo binario (ceros y unos)
