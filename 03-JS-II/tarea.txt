@@ -1,0 +1,21 @@
+for:
+---------
+for es un bucle que se ejecuta indefinidamente o hasta encontrar una sentencia que detenga su ejecucion,
+sirve para realizar tareas repetitivas o que siguen un patron sin tener que repetir el codigo.
+tiene principalmente 3 partes:
+- la inicializacion de la Variable
+- la parte condicional (encargada de detener la ejecucion)
+- la parte incremental
+
+
+&&, ||, !
+---------
+estos son operadores logicos, sirven para comparar o negar expresiones booleanas (true o false)
+el operador && representa la conjuncion (y) devolvere true solo cuando ambas expresiones sean verdaderas
+en caso contrario devolvera false
+el operador || representa la disyuncion (ó) devolvera false solo cuando ambas expresiones sean falsas
+en todos los demas casos devolvera true
+el operador ! representa la negacion (no), convierte cualquier valor verdadero en falso e igual en el caso
+contrario, se puede anidar este operador para representar una negacion de otra negacion ..y asi sucesivamente.
+estos operadores no necesariamente deben trabajar con tipos de datos booleanos sino que tambien con sus
+representaciones booleanas.
